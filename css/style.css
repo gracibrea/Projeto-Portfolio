@@ -17,7 +17,7 @@ header {
 header .logo {
     font-size: 25px;
     font-weight: bold;
-    color: white;
+    color: black;
 }
 
 header .menu {
@@ -30,7 +30,7 @@ header .menu {
 
 header .menu-line {
     height: 3px;
-    background-color: #333;
+    background-color: black;
 }
 
 .container {
@@ -41,7 +41,7 @@ header .menu-line {
 
 .container .leftside {
     flex: 1;
-    background-color: #3b576d;
+    background-color: #f1cd92;
     display: flex;
     align-items: center;
     padding: 0px 30px;
@@ -49,14 +49,14 @@ header .menu-line {
 
 .container .rightside {
     flex: 1;
-    background-image: url('../images/hero.jpg'); /*os  ..  significam que a imagem está uma pasta vizinha do css*/
+    background-image: url('../images/perfil.jpg'); /*os  ..  significam que a imagem está uma pasta vizinha do css*/
     background-size: cover; /*ao inves de 100% center, cover melhora a responsividade*/
-    background-position: center top;
+    background-position: center center;
     background-repeat: no-repeat;
 }
 
 .container .info {
-    color: white;
+    color: #000;
 }
 
 .container .info .profession {
@@ -76,24 +76,24 @@ header .menu-line {
     display: inline-block;
     background-color: #fff;
     color: #3b576d;
-    padding: 20px 40px;
+    padding: 20px 35px;
     font-size: large;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
     margin-top: 30px;
-    box-shadow: 0px 20px 30px  #171b1f52;
+    box-shadow: 0px 5px 10px  #171b1f52;
     border-radius: 5px;
     margin-right: 5px;
 }
 
 .container .info .buttons a.hire {
-    color: #35556d;
+    color: #000;
 }
 
 .container .info .buttons a.more {
-    color: white;
-    background-color: #677c8d;
+    color: #000;
+    background-color: #fff;
 }
 
 .container .info .buttons a:hover {
@@ -106,15 +106,15 @@ footer {
     left: 0;
     right: 0;
     padding: 20px;
-    color: white;
+    color: #000;
     font-size: 13px;
 }
 
 footer a {
-    color: white;
+    color: #000;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 925px) {
 
     header {
         position: initial;
@@ -140,21 +140,22 @@ footer a {
 
     footer {
         position: initial; /*mantém o texto bem próximo do rodapé*/
-        background-color: #3b576d;        
+        background-color: #f1cd92;        
         font-size: 15px;
     }
 
     footer a {
-        color: white;
+        color: #000;
     }
 
-    @media (max-width: 450px) {
+    @media (max-width: 470px) {
         .container .leftside .info .name{
             font-size: 50px;
         }
-        .container .leftside .info .name {
+        .container .leftside .info .buttons a {
             display: block;
             margin-right: 0px;
+
         }
     }
 }
