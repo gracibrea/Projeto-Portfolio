@@ -4,7 +4,7 @@ body {
 }
 
 header {
-    display: flex; /*automáticamente as duas divs ficaram em linha, uma ao lado da outra*/
+    display: flex; /*automaticamente as duas divs ficaram em linha, uma ao lado da outra*/
     justify-content: space-between;/*alinhamento justificado com espaço entre as divs, ficando cada uma numa extremidade*/
     align-items: center;
     padding: 30px;
@@ -141,7 +141,6 @@ footer a {
     footer {
         position: initial; /*mantém o texto bem próximo do rodapé*/
         background-color: #f1cd92;        
-        font-size: 15px;
     }
 
     footer a {
