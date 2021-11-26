@@ -49,7 +49,7 @@ header .menu-line {
 
 .container .rightside {
     flex: 1;
-    background-image: url('images/hero.jpg');    
+    background-image: url('https://github.com/gracibrea/Projeto-Portfolio/blob/main/images/hero.jpg');    
     background-size: cover; /*ao inves de 100% center, cover melhora a responsividade*/
     background-position: center top;
     background-repeat: no-repeat;
